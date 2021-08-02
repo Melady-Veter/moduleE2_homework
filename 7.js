@@ -8,7 +8,7 @@ if (tall.includes (0)) {
   indices.push(idx+1);
   idx = tall.indexOf(element, idx + 1);
 }
-console.log("В массиве есть нулевые элементы на следующих позициях: " + indices);
+console.log("Р’ РјР°СЃСЃРёРІРµ РµСЃС‚СЊ РЅСѓР»РµРІС‹Рµ СЌР»РµРјРµРЅС‚С‹ РЅР° СЃР»РµРґСѓСЋС‰РёС… РїРѕР·РёС†РёСЏС…: " + indices);
 }
 
 tall = tall.filter(value => { return value !== 0});
@@ -26,8 +26,8 @@ function list(tall) {
     }
   }
   
-  console.log("Нечётных чисел в массиве: " + sumOdd);
-  console.log("Чётных чисел в массиве: " + sumPar);
+  console.log("РќРµС‡С‘С‚РЅС‹С… С‡РёСЃРµР» РІ РјР°СЃСЃРёРІРµ: " + sumOdd);
+  console.log("Р§С‘С‚РЅС‹С… С‡РёСЃРµР» РІ РјР°СЃСЃРёРІРµ: " + sumPar);
   console.log(tall)
 }
 list(tall);
