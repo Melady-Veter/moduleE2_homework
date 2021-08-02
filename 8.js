@@ -9,5 +9,5 @@ for (let elem of me)
    console.log(elem);
 
 for (let position of me) {
-  console.log(`Ключ - ${position[0]}, значение - ${position[1]}`);
+  console.log(`РљР»СЋС‡ - ${position[0]}, Р·РЅР°С‡РµРЅРёРµ - ${position[1]}`);
 }
